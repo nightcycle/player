@@ -1,14 +1,15 @@
 [package]
 name = "nightcycle/player"
 description = "A player + character class with some useful utilities"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
 exclude = ["Packages", ".vscode"]
 
 [dependencies]
-texture = "nightyclce/texture@0.1.0"
-coldfusion = "nightcycle/cold-fusion@1.0.0"
+isotope = "nightcycle/isotope@1.0.x"
+texture = "nightcycle/texture@0.1.x"
+coldfusion = "nightcycle/cold-fusion@1.0.x"
 signal = "quenty/signal@^2.0.0-canary"
 maid = "quenty/maid@^2.0.1-canary"
